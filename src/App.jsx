@@ -4,7 +4,7 @@ import Login from './components/Login';
 
 const App = () => {
   return (
-    <div className='App'>
+    <>
       <Router>
         <Routes>
           <Route exact path='/'>
@@ -12,7 +12,7 @@ const App = () => {
           </Route>
         </Routes>
       </Router>
-    </div>
+    </>
   );
 };
 
