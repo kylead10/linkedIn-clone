@@ -1,10 +1,10 @@
 import React from 'react';
-import styled from 'styled-components';
+// import styled from 'styled-components';
 
 const Login = () => {
   return (
     <div>
-      <h2>you have logged in</h2>
+      <h2>Login</h2>
     </div>
   );
 };

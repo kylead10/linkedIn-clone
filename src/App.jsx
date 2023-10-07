@@ -6,7 +6,7 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route exact path='/'>
+        <Route>
           <Login />
         </Route>
       </Routes>
