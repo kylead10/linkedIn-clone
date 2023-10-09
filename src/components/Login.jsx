@@ -58,6 +58,11 @@ const SignIn = styled.a`
   }
 `;
 
+const Section = styled.section`
+  display: flex;
+  align-content: start;
+`;
+
 const Login = () => {
   return (
     <Container>
@@ -70,6 +75,7 @@ const Login = () => {
         </div>
         <SignIn>Sign in</SignIn>
       </Nav>
+      <Section>Section</Section>
     </Container>
   );
 };
