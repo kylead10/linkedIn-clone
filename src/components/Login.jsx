@@ -95,6 +95,20 @@ const Hero = styled.div`
       line-height: 2px;
     }
   }
+  img {
+    z-index: -1px;
+    width: 800px;
+    height: 670px;
+    position: absolute;
+    bottom: -2px;
+    right: -200px;
+    @media (max-width: 768px) {
+      top: 230px;
+      width: initial;
+      position: initial;
+      height: initial;
+    }
+  }
 `;
 
 const Login = () => {
@@ -112,6 +126,7 @@ const Login = () => {
       <Section>
         <Hero>
           <h1>Welcome to your professional community</h1>
+          <img src='src/assets/login-hero.png' alt='login-hero' />
         </Hero>
       </Section>
     </Container>
