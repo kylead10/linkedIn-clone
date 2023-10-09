@@ -4,13 +4,11 @@ import Login from './components/Login';
 
 const App = () => {
   return (
-    <Router>
+    <div>
       <Routes>
-        <Route>
-          <Login />
-        </Route>
+        <Route path='/' element={<Login />} />
       </Routes>
-    </Router>
+    </div>
   );
 };
 
