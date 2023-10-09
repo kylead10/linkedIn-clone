@@ -15,9 +15,9 @@ const Nav = styled.nav`
   justify-content: space-between;
   flex-wrap: nowrap;
 
-  /* & > a {
+  & > a {
     width: 135px;
-    height: 34px; */
+    height: 3 4px;
     @media (max-width: 768px) {
       padding: 0 5px;
     }
