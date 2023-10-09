@@ -66,14 +66,34 @@ const Section = styled.section`
   padding-top: 40px;
   padding: 60px 0;
   position: relative;
+  font-size: 30px;
   flex-wrap: wrap;
   width: 100%;
   max-width: 1128px;
   align-items: center;
   margin: auto;
-  @media (max-width: 768) {
+  @media (max-width: 768px) {
     margin: auto;
     min-height: 0px;
+  }
+`;
+
+const Hero = styled.div`
+  width: 100%;
+  h1 {
+    padding-bottom: 0;
+    width: 55%;
+    font-size: 56px;
+    color: #2977c9;
+    font-weight: 200px;
+    line-height: 70px;
+    display: inline;
+    @media (max-width: 768px) {
+      text-align: center;
+      font-size: 20px;
+      width: 100%;
+      line-height: 2px;
+    }
   }
 `;
 
@@ -89,7 +109,11 @@ const Login = () => {
         </div>
         <SignIn>Sign in</SignIn>
       </Nav>
-      <Section>Section</Section>
+      <Section>
+        <Hero>
+          <h1>Welcome to your professional community</h1>
+        </Hero>
+      </Section>
     </Container>
   );
 };
