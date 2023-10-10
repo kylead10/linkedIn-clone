@@ -84,7 +84,7 @@ const Hero = styled.div`
     padding-bottom: 0;
     width: 55%;
     font-size: 56px;
-    color: #2977c9;
+    color: #8f5849;
     font-weight: 200px;
     line-height: 70px;
     display: inline;
@@ -101,7 +101,7 @@ const Hero = styled.div`
     height: 670px;
     position: absolute;
     bottom: -2px;
-    right: -200px;
+    right: 0px;
     @media (max-width: 768px) {
       top: 230px;
       width: initial;
@@ -125,7 +125,7 @@ const Login = () => {
       </Nav>
       <Section>
         <Hero>
-          <h1>Welcome to your professional community</h1>
+          <h1>Find jobs through your community</h1>
           <img src='src/assets/login-hero.png' alt='login-hero' />
         </Hero>
       </Section>
