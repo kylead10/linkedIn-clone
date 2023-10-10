@@ -25,6 +25,9 @@ const Nav = styled.nav`
 `;
 
 const Join = styled.a`
+  img {
+    width: 10px;
+  }
   font-size: 30px;
   font-weight: 600;
   text-align: center;
