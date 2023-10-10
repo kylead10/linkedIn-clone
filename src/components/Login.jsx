@@ -25,17 +25,15 @@ const Nav = styled.nav`
 `;
 
 const Join = styled.a`
-  /* background-color: red; */
   font-size: 30px;
   font-weight: 600;
   text-align: center;
   padding: 31px 45px;
   text-decoration: none;
-  /* padding-right: 9px; */
   border-radius: 49px;
   color: rgba(0, 0, 0, 0.6);
   margin: 270px;
-  margin-right: 12px;
+  margin-right: 0px;
   &:hover {
     background-color: rgba(0, 0, 0, 0.08);
     color: rgba(0, 0, 0, 0.9);
@@ -52,6 +50,8 @@ const SignIn = styled.a`
   font-weight: 400;
   line-height: 60px;
   padding: 17px 35px;
+  margin-right: 1px;
+  margin-left: -100px;
   text-align: center;
   background-color: rgba(0, 0, 0, 0);
   &:hover {
