@@ -26,10 +26,12 @@ const Nav = styled.nav`
 
 const Join = styled.a`
   /* background-color: red; */
-  font-size: 32px;
-  padding: 10px 12px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 60px;
+  padding: 31px 45px;
   text-decoration: none;
-  border-radius: 7px;
+  border-radius: 49px;
   color: rgba(0, 0, 0, 0.6);
   margin: 270px;
   margin-right: 12px;
