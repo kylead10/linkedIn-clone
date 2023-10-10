@@ -25,9 +25,6 @@ const Nav = styled.nav`
 `;
 
 const Join = styled.a`
-  img {
-    width: 10px;
-  }
   font-size: 30px;
   font-weight: 600;
   text-align: center;
@@ -101,20 +98,40 @@ const Hero = styled.div`
       line-height: 2px;
     }
   }
-  img {
-    z-index: -1px;
-    width: 800px;
-    height: 670px;
-    position: absolute;
-    bottom: -2px;
-    right: 0px;
-    @media (max-width: 768px) {
-      top: 230px;
-      width: initial;
-      position: initial;
-      height: initial;
-    }
+`;
+
+const ImageContainer = styled.div`
+  display: flex;
+  justify-content: center;
+
+  @media (min-width: 768px) {
+    justify-content: flex-end;
   }
+`;
+
+const Image = styled.img`
+  max-width: 100%;
+  height: auto;
+`;
+
+const Form = styled.div`
+  margin-top: 900px;
+  width: 408px;
+  @media (max-width: 768px) {
+    margin-top: 20px;
+  }
+`;
+
+const Google = styled.button`
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  align-items: center;
+  height: 56px;
+  width: 100%;
+  border-radius: 28px;
+  box-shadow: inset 0 0 0 1px rgb(0 0 0 /60%),
+    inset 0 0 0 2px rgb(0 0 0 /0%) inset 0 0 0 1px rgb(0 0 0 /0);
 `;
 
 const Login = () => {
@@ -132,8 +149,16 @@ const Login = () => {
       <Section>
         <Hero>
           <h1>Find jobs through your community</h1>
-          <img src='src/assets/login-hero.png' alt='login-hero' />
         </Hero>
+        <Form>
+          <ImageContainer>
+            <Image src='src/assets/login-hero.png' alt='login-hero' />
+          </ImageContainer>
+          <Google>
+            <img src='' alt='' />
+            Sign in with Google
+          </Google>
+        </Form>
       </Section>
     </Container>
   );
