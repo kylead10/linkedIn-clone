@@ -8,7 +8,7 @@ const Container = styled.div`
 const Nav = styled.nav`
   max-width: 1128px;
   margin: auto;
-  padding: 12px 0 16px;
+  padding: 12px 0 18px;
   display: flex;
   align-items: center;
   position: relative;
