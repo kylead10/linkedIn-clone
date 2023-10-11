@@ -1,2 +1,2 @@
 # React + Vite
-a react project
+a react project with styled
