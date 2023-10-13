@@ -93,6 +93,7 @@ const Hero = styled.div`
     display: inline;
     @media (max-width: 768px) {
       text-align: center;
+      /* padding: 2px; */
       font-size: 20px;
       width: 100%;
       line-height: 2px;
@@ -111,7 +112,7 @@ const ImageContainer = styled.div`
 
 const Image = styled.img`
   max-width: 100%;
-  /* height: 100vh; */
+  height: auto;
 `;
 
 const Form = styled.div`
