@@ -84,7 +84,7 @@ const Section = styled.section`
 const Hero = styled.div`
   width: 100%;
   h1 {
-    padding-bottom: 0;
+    padding-bottom: 1000;
     width: 55%;
     font-size: 56px;
     color: #8f5849;
@@ -93,7 +93,7 @@ const Hero = styled.div`
     display: inline;
     @media (max-width: 768px) {
       text-align: center;
-      /* padding: 2px; */
+      padding: 200px;
       font-size: 20px;
       width: 100%;
       line-height: 2px;
