@@ -111,7 +111,7 @@ const ImageContainer = styled.div`
 
 const Image = styled.img`
   max-width: 100%;
-  height: fit-content;
+  /* height: 100vh; */
 `;
 
 const Form = styled.div`
