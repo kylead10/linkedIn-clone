@@ -134,9 +134,7 @@ const Google = styled.button`
     inset 0 0 0 2px rgb(0 0 0 /0%) inset 0 0 0 1px rgb(0 0 0 /0);
   img {
     width: auto;
-    background-color: red;
     height: fit-content;
-    display: none;
   }
 `;
 
