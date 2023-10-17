@@ -155,7 +155,7 @@ const Login = () => {
             <Image src='src/assets/login-hero.png' alt='login-here' />
           </ImageContainer>
           <Google>
-            <img src='src/assets/google.png' alt='go' />
+            <img src='src/assets/google.png' alt='goggle logo' />
             Sign in with Google
           </Google>
         </Form>
