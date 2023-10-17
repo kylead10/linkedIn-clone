@@ -149,11 +149,10 @@ const Login = () => {
       <Section>
         <Hero>
           <h1>Find jobs through your community</h1>
-          <h2>connect </h2>
         </Hero>
         <Form>
           <ImageContainer>
-            <Image src='src/assets/login-hero.png' alt='login-hero' />
+            <Image src='src/assets/login-hero.png' alt='login-here' />
           </ImageContainer>
           <Google>
             <img src='' alt='' />
