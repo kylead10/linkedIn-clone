@@ -69,7 +69,7 @@ const Section = styled.section`
   padding-top: 40px;
   padding: 60px 0;
   position: relative;
-  font-size: 30px;
+  /* font-size: 30px; */
   flex-wrap: wrap;
   width: 100%;
   max-width: 1128px;
