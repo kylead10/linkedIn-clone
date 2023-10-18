@@ -127,8 +127,8 @@ const Google = styled.button`
   justify-content: center;
   background-color: #fff;
   align-items: center;
-  height: 56px;
-  width: 100%;
+  height: 79px;
+  width: 900px;
   border-radius: 28px;
   box-shadow: inset 0 0 0 1px rgb(0 0 0 /60%),
     inset 0 0 0 2px rgb(0 0 0 /0%) inset 0 0 0 1px rgb(0 0 0 /0%);
@@ -136,7 +136,7 @@ const Google = styled.button`
   vertical-align: middle;
   z-index: 0;
   transition-duration: 167ms;
-  font-size: 20px;
+  font-size: 40px;
   color: rgba(0, 0, 0, 0.6);
   &:hover {
     background-color: rgba(207, 207, 207, 0.25);
@@ -145,7 +145,7 @@ const Google = styled.button`
 
   img {
     width: auto;
-    height: fit-content;
+    height: 42px;
   }
 `;
 
