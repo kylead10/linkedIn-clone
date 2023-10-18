@@ -144,6 +144,7 @@ const Google = styled.button`
   }
 
   img {
+    margin: 5px;
     width: auto;
     height: 42px;
   }
