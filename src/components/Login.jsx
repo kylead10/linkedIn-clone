@@ -111,9 +111,11 @@ const ImageContainer = styled.div`
 
 const Image = styled.img`
   margin-top: -850px;
+  margin-left: 90px;
   max-width: 150%;
   height: 150%;
   width: 790px;
+
   @media (min-width: 768px) {
     justify-content: flex-end;
   }
