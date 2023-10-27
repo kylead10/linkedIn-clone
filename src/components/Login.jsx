@@ -111,8 +111,9 @@ const ImageContainer = styled.div`
 
 const Image = styled.img`
   margin-top: auto;
-  max-width: 100%;
-  height: 100%;
+  max-width: 150%;
+  height: 150%;
+  width: 100px;
 `;
 
 const Form = styled.div`
