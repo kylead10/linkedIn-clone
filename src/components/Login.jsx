@@ -114,6 +114,9 @@ const Image = styled.img`
   max-width: 150%;
   height: 150%;
   width: 800px;
+  @media (min-width: 768px) {
+    justify-content: flex-end;
+  }
 `;
 
 const Form = styled.div`
