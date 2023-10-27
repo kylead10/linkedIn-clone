@@ -113,7 +113,7 @@ const Image = styled.img`
   margin-top: auto;
   max-width: 150%;
   height: 150%;
-  width: 100px;
+  width: 800px;
 `;
 
 const Form = styled.div`
