@@ -110,7 +110,7 @@ const ImageContainer = styled.div`
 `;
 
 const Image = styled.img`
-  margin: 5px;
+  margin-top: auto;
   max-width: 100%;
   height: 100%;
 `;
