@@ -113,7 +113,7 @@ const Image = styled.img`
   margin-top: -850px;
   max-width: 150%;
   height: 150%;
-  width: 800px;
+  width: 790px;
   @media (min-width: 768px) {
     justify-content: flex-end;
   }
@@ -121,7 +121,7 @@ const Image = styled.img`
 
 const Form = styled.div`
   margin-top: 900px;
-  width: 408px;
+  width: 908px;
   @media (max-width: 768px) {
     margin-top: 20px;
   }
