@@ -110,7 +110,7 @@ const ImageContainer = styled.div`
 `;
 
 const Image = styled.img`
-  margin-top: auto;
+  margin-top: -800px;
   max-width: 150%;
   height: 150%;
   width: 800px;
