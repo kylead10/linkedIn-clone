@@ -1,3 +1,3 @@
 # React + Vite
 
-A practice react project -dom
+A practice react project -d
