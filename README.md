@@ -1,3 +1,3 @@
 # React + Vite
 
-A practice react project (not completed)
+A practice react project (not completed).
