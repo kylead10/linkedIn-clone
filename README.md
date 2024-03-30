@@ -1,3 +1,3 @@
 # React + Vite
 
-A practice react project cloning linkedIn (still in prog).
+A practice react project cloning linkedIn (still in pr).
